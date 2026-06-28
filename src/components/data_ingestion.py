@@ -7,7 +7,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
-@dataclass #decorator
+@dataclass #the decorator that automatically creates the constructor
 class DataIngestionConfig:
     train_data_path: str=os.path.join('artifact','train.csv')
     test_data_path: str=os.path.join('artifact','test.csv')
