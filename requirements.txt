@@ -5,6 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
 # -e . 
 #commenting beacuse i''ll build the package at then end
  
