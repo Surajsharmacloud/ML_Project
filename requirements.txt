@@ -7,6 +7,6 @@ catboost
 xgboost
 dill
 flask
-# -e . 
+-e . 
 #commenting beacuse i''ll build the package at then end
  
