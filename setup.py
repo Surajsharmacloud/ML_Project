@@ -23,6 +23,6 @@ setup(
     author='Suraj Sharma',
     author_email='surajsam596o@gmail.com',
     packages=find_packages(),
-    install_requires=get_requirement('requirements.txt')
+    install_requires=get_requirement("requirements.txt")
     #not feasible to write this way for many packages.so create a function
 )
